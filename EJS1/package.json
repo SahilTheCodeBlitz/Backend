@@ -1,0 +1,18 @@
+{
+  "name": "ejs1",
+  "version": "1.0.0",
+  "description": "creating two pages and accepting data from one page and displaying on other using ejs ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sahil Khane",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "ejs": "^3.1.9",
+    "express": "^4.18.3"
+  }
+}

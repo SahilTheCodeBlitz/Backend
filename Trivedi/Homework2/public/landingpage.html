@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+</head>
+<body>
+    <h1>This is landing Page</h1>    
+    <h4>Welcome !!!</h4>
+    <br><br><br><br><br>
+    <button type="submit" id="submit">Go to login Page</button>
+
+    <script>
+       const btn = document.getElementById('submit');
+        btn.addEventListener('click',()=>{
+            // as soon as user clicked to login button guide him to 
+            
+            console.log(`user clicked on login button`);
+            window.location.href = '/login' // user will be directed to /login url 
+
+            //ab is route ko server handle karega  we made get request onthis route
+
+            // see get request code on the server
+        })
+    </script>
+</body>
+</html>

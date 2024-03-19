@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<body>
+    <h1>This is Homepage</h1>
+    <h4>Welcome to Homepage</h4>
+    <br><br><br><br><br>
+    <button type="submit" id="logout">Logout</button>
+    
+    <script>
+        const btn = document.getElementById('logout')
+        btn.addEventListener('click',()=>{
+            window.location.href = '/logout' // get requet made to /logout url
+        })
+    </script>
+
+</body>
+</html>

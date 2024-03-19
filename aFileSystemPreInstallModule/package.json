@@ -1,0 +1,13 @@
+{
+  "name": "usinfpreinstallmodules",
+  "version": "1.0.0",
+  "description": "working with preinstall modules and reading aqnd writting operations  ",
+  "main": "readoperation.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sahil Khane",
+  "license": "ISC"
+}
+

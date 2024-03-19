@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finding Number Of letters</title>
+</head>
+<body>
+
+    <% if (locals.counts) { %>
+        <!-- Code to be executed if the condition is true -->
+        <h1>There are total <%= locals.counts %> letters </h1>
+    <% } else { %>
+        <!-- Code to be executed if the condition is false -->
+        <form action="/submit" method="post">
+
+            <label for="firstName"> First Name</label> 
+            <input type="text" name="firstName">
+            <br><br>
+            <label for="lastName"> Last Name</label>
+            <input type="text" name="lastName">
+            <br><br>
+            <button type="submit">Register</button>
+    
+        </form>
+    <% } %>
+
+    
+
+
+    
+
+
+</body>
+</html>

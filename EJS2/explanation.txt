@@ -1,0 +1,4 @@
+if - else in ejs
+
+creates index.ejs file which has two input filed  if both field have some value then will display if block code
+else we will display another block code

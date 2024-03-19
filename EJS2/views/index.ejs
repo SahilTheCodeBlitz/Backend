@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    
+    <% if (locals.nameOfPerson && locals.ageOfPerson) { %>
+        <!-- Code to execute if condition is true -->
+        <h1>Hello Mr <%= locals.nameOfPerson %></h1> 
+        <h1>Your age is <%= locals.ageOfPerson %></h1>
+
+    <% } else { %>
+        <!-- Code to execute if condition is false -->
+        <form action="/submit" method="post">
+            <label for="name">Enter your name = </label> 
+            <input type="text" name="name">
+            <br><br>
+            <label for="age">Enter your age = </label>
+            <input type="number" name="age">
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+    
+    <% } %>
+    
+</body>
+</html>

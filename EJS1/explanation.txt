@@ -1,0 +1,4 @@
+task = enter two fields in the first.ejs take that and pass as parameter in the second fields through
+ejs render  function and then access those in the second.ejs
+
+remeber to install npm inntall ejs not used in code but backend me lagta hai

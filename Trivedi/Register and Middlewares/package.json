@@ -1,0 +1,18 @@
+{
+  "name": "register-and-middlewares",
+  "version": "1.0.0",
+  "description": "creating and uplaoding regitration form then sending post request from front end to backend that have post request data , then passing the data from server to an anotheer html file and disspaying it also using custom and builtin middleware ",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Sahil Khane",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "morgan": "^1.10.0"
+  }
+}
